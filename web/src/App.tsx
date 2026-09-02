@@ -4,6 +4,7 @@ import StartPage from "./pages/StartPage";
 import OnboardingPage from "./pages/OnboardingPage";
 import DashboardPage from "./pages/DashboardPage";
 import AuthLayout from "./layouts/AuthLayout";
+import MeinPlanPage from "./pages/MeinPlanPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </Route>
         <Route element={<MainLayout/>}>
           <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/plan" element={<MeinPlanPage/>}/> 
         </Route>
       </Routes>
     </BrowserRouter>

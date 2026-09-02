@@ -7,9 +7,11 @@ function MainLayout() {
       <header className="layout-header">
         <h1 className="layout-logo">Stundenplanung</h1>
         <nav className="layout-nav">
-          <Link to="/">Start</Link>
+          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/plan">Mein Plan</Link>
+          <Link to="/">Plan bearbeiten</Link>
           
-          <Link to="/register">Registrieren</Link>
+          <Link to="/register">Mein Profile</Link>
         </nav>
       </header>
 
