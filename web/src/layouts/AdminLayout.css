@@ -1,0 +1,55 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #cec571;
+  color: white;
+  border-radius: 15px;
+}
+
+.layout-logo {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.layout-nav{
+  padding: 10px;
+  width: 200px;
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+  gap: 1rem;
+  background-color: rgb(160, 148, 148);
+  border-radius: 10px;
+}
+
+.layout-footer {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: #f4f4bd;
+  color: #64748b;
+  font-size: 0.875rem;
+  border-radius: 15px;
+}
+
+.admin-body{
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  border-left: 1px solid gray;
+}
+
+.layout-content {
+  flex: 1;
+  padding: 2rem;
+}

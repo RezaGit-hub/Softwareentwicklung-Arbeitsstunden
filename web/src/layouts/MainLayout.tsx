@@ -9,9 +9,10 @@ function MainLayout() {
         <nav className="layout-nav">
           <Link to="/dashboard">Dashboard</Link>
           <Link to="/plan">Mein Plan</Link>
-          <Link to="/">Plan bearbeiten</Link>
+          <Link to="/bearbeiten">Plan bearbeiten</Link>
           
-          <Link to="/register">Mein Profile</Link>
+          <Link to="/profile">Mein Profile</Link>
+          <Link to="/">Abmelden</Link>
         </nav>
       </header>
 

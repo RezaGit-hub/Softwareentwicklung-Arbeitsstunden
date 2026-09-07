@@ -1,4 +1,4 @@
-function LoginPage() {
+function LogoutPage() {
   return (
     <div>
       <h2>Anmelden</h2>
@@ -7,4 +7,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default LogoutPage;
