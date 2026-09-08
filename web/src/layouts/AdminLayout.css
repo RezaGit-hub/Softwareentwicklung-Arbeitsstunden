@@ -1,3 +1,7 @@
+*{
+  text-decoration: none;
+}
+
 .layout {
   min-height: 100vh;
   display: flex;
@@ -9,8 +13,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #cec571;
-  color: white;
+  background-color: #f2f0de;
   border-radius: 15px;
 }
 
@@ -26,17 +29,34 @@
   display: flex;
   margin: 10px;
   gap: 1rem;
-  background-color: rgb(160, 148, 148);
+  background-color: rgb(249, 250, 249);
   border-radius: 10px;
+  width: 150px;
 }
 
-.layout-footer {
+.layout-nav a{
+  color: black;
+}
+
+.layout-footer{
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  gap: 1rem;
   padding: 1rem 2rem;
   text-align: center;
-  background-color: #f4f4bd;
+  background-color: #f8f8f6;
   color: #64748b;
   font-size: 0.875rem;
   border-radius: 15px;
+}
+
+.layout-nav li {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  gap: 1rem;
+  border-bottom: 0.1rem solid gray;
 }
 
 .admin-body{

@@ -10,6 +10,13 @@ import BearbeitenPage from "./pages/BearbeitenPage";
 import ProfilePage from "./pages/ProfilePage";
 import AdminPage from "./pages/AdminPage";
 import AdminLayout from "./layouts/AdminLayout";
+import GrundDaten from "./pages/GrundDaten";
+import PlannenPage from "./pages/PlannenPage";
+import VertrenenPage from "./pages/VertrenenPage";
+import LehrkraftPage from "./pages/LehrkraftPage";
+import FachPage from "./pages/FachPage";
+import KlassenPage from "./pages/KlassenPage";
+import RaumPage from "./pages/RaumPage";
 
 function App() {
   return (
@@ -29,6 +36,13 @@ function App() {
 
         <Route element={<AdminLayout/>}>
           <Route path="/admin" element={<AdminPage/>}/>
+          <Route path="/grunddaten" element={<GrundDaten/>}/>
+          <Route path="/plannen" element={<PlannenPage/>}/>
+          <Route path="/vertretung" element={<VertrenenPage/>}/>
+          <Route path="/lehrer" element={<LehrkraftPage/>}/>
+          <Route path="/fach" element={<FachPage/>}/>
+          <Route path="/klass" element={<KlassenPage/>}/>
+          <Route path="/raum" element={<RaumPage/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

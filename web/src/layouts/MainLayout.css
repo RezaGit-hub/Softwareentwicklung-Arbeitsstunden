@@ -1,3 +1,7 @@
+*{
+  text-decoration: none;
+}
+
 .layout {
   min-height: 100vh;
   display: flex;
@@ -10,7 +14,7 @@
   align-items: center;
   padding: 1rem 2rem;
   background-color: #cec571;
-  color: white;
+  
   border-radius: 15px;
 }
 
@@ -19,7 +23,7 @@
   margin: 0;
 }
 
-.layout-nav {
+.layout-nav-M {
   display: flex;
   gap: 1.5rem;
 }
@@ -39,7 +43,11 @@
   padding: 2rem;
 }
 
-.layout-footer {
+.layout-footer{
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  gap: 1rem;
   padding: 1rem 2rem;
   text-align: center;
   background-color: #f4f4bd;
